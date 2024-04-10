@@ -5,10 +5,16 @@ import * as passport from 'passport';
 import * as session from 'express-session';
 import { sessionStore } from './database/db.connect';
 import * as dotenv from 'dotenv';
+import { errorHandler } from './middlewares/errorHandler.middleware';
+import { morganMiddleware } from './middlewares/morgan.middleware';
+import { logger } from './logging/logger';
+import userRouter from './routes/user.route';
 
 const PORT: number = 3000;
 
 dotenv.config();
+
+app.use(morganMiddleware);
 
 app.use( helmet() );
 
@@ -33,13 +39,20 @@ app.use(session({
     } as session.CookieOptions,
 }));
 
+import './authentication/auth';
+
 app.use(passport.initialize());
 
 app.use(passport.session());
 
+// User Router
+app.use('/user', userRouter);
+
 app.listen(PORT, () => {
-    return console.log(`Express is listening at port ${PORT}`);
+    logger.info(`Server is running on PORT ${PORT}`)
 });
+
+app.use( errorHandler );
 
 
 

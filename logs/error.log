@@ -1,0 +1,74 @@
+10-04-2024 02:56:07:567 error: An error has occured
+10-04-2024 02:56:07:567 error: User validation failed: email: Please use a correct email format user@example.com
+10-04-2024 02:57:41:5741 error: An error has occured
+10-04-2024 02:57:41:5741 error: User validation failed: email: Please use a correct email format user@example.com
+10-04-2024 02:58:07:587 error: An error has occured
+10-04-2024 02:58:07:587 error: E11000 duplicate key error collection: social_media-API.users index: username_1 dup key: { username: "Dave" }
+10-04-2024 03:02:54:254 error: An error has occured
+10-04-2024 03:02:54:254 error: E11000 duplicate key error collection: social_media-API.users index: username_1 dup key: { username: "Dave" }
+10-04-2024 03:04:54:454 error: An error has occured
+10-04-2024 03:04:54:454 error: E11000 duplicate key error collection: social_media-API.users index: username_1 dup key: { username: "Dave" }
+10-04-2024 03:04:56:456 error: An error has occured
+10-04-2024 03:04:56:456 error: E11000 duplicate key error collection: social_media-API.users index: username_1 dup key: { username: "Dave" }
+10-04-2024 03:11:17:1117 error: An error has occured
+10-04-2024 03:11:17:1117 error: username or email is incorrect
+10-04-2024 03:11:28:1128 error: An error has occured
+10-04-2024 03:11:28:1128 error: username or email is incorrect
+10-04-2024 03:15:51:1551 error: An error has occured
+10-04-2024 03:15:51:1551 error: username or email is incorrect
+10-04-2024 03:16:06:166 error: An error has occured
+10-04-2024 03:16:06:166 error: username or email is incorrect
+10-04-2024 03:21:24:2124 error: An error has occured
+10-04-2024 03:21:24:2124 error: email or password is incorrect
+10-04-2024 03:21:32:2132 error: An error has occured
+10-04-2024 03:21:32:2132 error: email or password is incorrect
+10-04-2024 03:26:40:2640 error: An error has occured
+10-04-2024 03:26:40:2640 error: email or password is incorrect
+10-04-2024 03:27:22:2722 error: An error has occured
+10-04-2024 03:27:22:2722 error: E11000 duplicate key error collection: social_media-API.users index: username_1 dup key: { username: "Dave" }
+10-04-2024 03:32:18:3218 error: An error has occured
+10-04-2024 03:32:18:3218 error: E11000 duplicate key error collection: social_media-API.users index: username_1 dup key: { username: "Dave" }
+10-04-2024 03:32:24:3224 error: An error has occured
+10-04-2024 03:32:24:3224 error: E11000 duplicate key error collection: social_media-API.users index: username_1 dup key: { username: "Dave" }
+10-04-2024 03:33:44:3344 error: An error has occured
+10-04-2024 03:33:44:3344 error: E11000 duplicate key error collection: social_media-API.users index: username_1 dup key: { username: "Dave" }
+10-04-2024 03:33:46:3346 error: An error has occured
+10-04-2024 03:33:46:3346 error: E11000 duplicate key error collection: social_media-API.users index: username_1 dup key: { username: "Dave" }
+10-04-2024 03:33:47:3347 error: An error has occured
+10-04-2024 03:33:47:3347 error: E11000 duplicate key error collection: social_media-API.users index: username_1 dup key: { username: "Dave" }
+10-04-2024 03:33:48:3348 error: An error has occured
+10-04-2024 03:33:48:3348 error: E11000 duplicate key error collection: social_media-API.users index: username_1 dup key: { username: "Dave" }
+10-04-2024 03:39:55:3955 error: An error has occured
+10-04-2024 03:39:55:3955 error: E11000 duplicate key error collection: social_media-API.users index: username_1 dup key: { username: "Dave" }
+10-04-2024 03:39:56:3956 error: An error has occured
+10-04-2024 03:39:56:3956 error: E11000 duplicate key error collection: social_media-API.users index: username_1 dup key: { username: "Dave" }
+10-04-2024 03:40:25:4025 error: An error has occured
+10-04-2024 03:40:25:4025 error: E11000 duplicate key error collection: social_media-API.users index: email_1 dup key: { email: "Test1@g.co" }
+10-04-2024 03:40:39:4039 error: An error has occured
+10-04-2024 03:40:39:4039 error: E11000 duplicate key error collection: social_media-API.users index: username_1 dup key: { username: "Davet" }
+10-04-2024 03:41:20:4120 error: An error has occured
+10-04-2024 03:41:20:4120 error: User validation failed: username: Username field is required
+10-04-2024 03:43:17:4317 error: An error has occured
+10-04-2024 03:43:17:4317 error: User validation failed: username: Username field is required
+10-04-2024 03:46:37:4637 error: An error has occured
+10-04-2024 03:46:37:4637 error: E11000 duplicate key error collection: social_media-API.users index: username_1 dup key: { username: "Dave" }
+10-04-2024 03:48:48:4848 error: An error has occured
+10-04-2024 03:48:48:4848 error: E11000 duplicate key error collection: social_media-API.users index: username_1 dup key: { username: "Dave" }
+10-04-2024 03:48:50:4850 error: An error has occured
+10-04-2024 03:48:50:4850 error: E11000 duplicate key error collection: social_media-API.users index: username_1 dup key: { username: "Dave" }
+10-04-2024 03:49:49:4949 error: An error has occured
+10-04-2024 03:49:49:4949 error: E11000 duplicate key error collection: social_media-API.users index: username_1 dup key: { username: "Dave" }
+10-04-2024 04:19:06:196 error: An error has occured
+10-04-2024 04:19:06:196 error: User validation failed: username: Username already exists
+10-04-2024 04:20:39:2039 error: An error has occured
+10-04-2024 04:20:39:2039 error: User validation failed: username: Username already exists
+10-04-2024 04:20:40:2040 error: An error has occured
+10-04-2024 04:20:40:2040 error: User validation failed: username: Username already exists
+10-04-2024 04:20:49:2049 error: An error has occured
+10-04-2024 04:20:49:2049 error: E11000 duplicate key error collection: social_media-API.users index: email_1 dup key: { email: "Test1@g.co" }
+10-04-2024 05:02:12:212 error: An error has occured
+10-04-2024 05:02:12:212 error: User validation failed: username: Username already exists, email: Email already exists
+10-04-2024 05:02:20:220 error: An error has occured
+10-04-2024 05:02:20:220 error: User validation failed: username: Username already exists
+10-04-2024 05:02:27:227 error: An error has occured
+10-04-2024 05:02:27:227 error: User validation failed: email: Email already exists
