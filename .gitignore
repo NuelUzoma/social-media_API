@@ -9,3 +9,7 @@ build
 # Environment variables
 
 .env
+
+# Error Logs
+
+logs
