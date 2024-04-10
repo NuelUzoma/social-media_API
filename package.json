@@ -4,7 +4,7 @@
   "description": "",
   "main": "build/app.js",
   "scripts": {
-    "start": "tsc && node build/app.js",
+    "dev": "tsc src/app.ts && nodemon src/app.js",
     "lint": "eslint . --ext .ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,14 +22,18 @@
     "helmet": "^7.1.0",
     "mongoose": "^8.3.0",
     "morgan": "^1.10.0",
+    "nodemon": "^3.1.0",
     "passport": "^0.7.0",
     "passport-local": "^1.0.0",
     "typescript": "^5.4.4",
     "winston": "^3.13.0"
   },
   "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
     "@types/express-session": "^1.18.0",
+    "@types/morgan": "^1.9.9",
     "@types/passport": "^1.0.16",
+    "@types/passport-local": "^1.0.38",
     "eslint": "^8.57.0"
   }
 }

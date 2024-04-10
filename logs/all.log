@@ -1,0 +1,205 @@
+10-04-2024 01:46:57:4657 info: Server is running on PORT 3000
+10-04-2024 01:47:46:4746 http: ::ffff:127.0.0.1 POST /user/login 200 51 - 1302.094 ms
+
+10-04-2024 01:48:30:4830 http: ::ffff:127.0.0.1 POST /user/login 200 51 - 265.767 ms
+
+10-04-2024 01:49:16:4916 http: ::ffff:127.0.0.1 POST /user/login - - - - ms
+
+10-04-2024 01:53:49:5349 info: Server is running on PORT 3000
+10-04-2024 01:54:15:5415 http: ::ffff:127.0.0.1 POST /user/login - - - - ms
+
+10-04-2024 01:54:24:5424 http: ::ffff:127.0.0.1 POST /user/login - - - - ms
+
+10-04-2024 02:29:02:292 info: Server is running on PORT 3000
+10-04-2024 02:45:24:4524 info: Server is running on PORT 3000
+10-04-2024 02:45:35:4535 http: ::ffff:127.0.0.1 POST /user/login - - - - ms
+
+10-04-2024 02:45:44:4544 http: ::ffff:127.0.0.1 POST /user/login 200 51 - 260.559 ms
+
+10-04-2024 02:45:58:4558 http: ::ffff:127.0.0.1 POST /user/login - - - - ms
+
+10-04-2024 02:46:21:4621 http: ::ffff:127.0.0.1 POST /user/login 200 51 - 186.140 ms
+
+10-04-2024 02:46:37:4637 http: ::ffff:127.0.0.1 GET /user/ 200 167 - 3018.725 ms
+
+10-04-2024 02:46:44:4644 http: ::ffff:127.0.0.1 GET /user/ 200 167 - 3022.533 ms
+
+10-04-2024 02:47:06:476 http: ::ffff:127.0.0.1 POST /user/login - - - - ms
+
+10-04-2024 02:48:03:483 http: ::ffff:127.0.0.1 POST /user/login 200 51 - 237.754 ms
+
+10-04-2024 02:48:18:4818 http: ::ffff:127.0.0.1 GET /user/ 200 166 - 3019.658 ms
+
+10-04-2024 02:55:21:5521 info: Server is running on PORT 3000
+10-04-2024 02:55:31:5531 http: ::ffff:127.0.0.1 GET /user/ 200 166 - 3147.830 ms
+
+10-04-2024 02:55:58:5558 http: ::ffff:127.0.0.1 POST /user/login - - - - ms
+
+10-04-2024 02:56:07:567 error: An error has occured
+10-04-2024 02:56:07:567 error: User validation failed: email: Please use a correct email format user@example.com
+10-04-2024 02:56:07:567 http: ::ffff:127.0.0.1 POST /user/signup 400 96 - 60.978 ms
+
+10-04-2024 02:57:41:5741 error: An error has occured
+10-04-2024 02:57:41:5741 error: User validation failed: email: Please use a correct email format user@example.com
+10-04-2024 02:57:41:5741 http: ::ffff:127.0.0.1 POST /user/signup 400 96 - 70.781 ms
+
+10-04-2024 02:58:07:587 error: An error has occured
+10-04-2024 02:58:07:587 error: E11000 duplicate key error collection: social_media-API.users index: username_1 dup key: { username: "Dave" }
+10-04-2024 02:58:07:587 http: ::ffff:127.0.0.1 POST /user/signup 500 56 - 581.388 ms
+
+10-04-2024 03:02:47:247 info: Server is running on PORT 3000
+10-04-2024 03:02:54:254 error: An error has occured
+10-04-2024 03:02:54:254 error: E11000 duplicate key error collection: social_media-API.users index: username_1 dup key: { username: "Dave" }
+10-04-2024 03:02:54:254 http: ::ffff:127.0.0.1 POST /user/signup 500 56 - 358.287 ms
+
+10-04-2024 03:04:38:438 info: Server is running on PORT 3000
+10-04-2024 03:04:54:454 error: An error has occured
+10-04-2024 03:04:54:454 error: E11000 duplicate key error collection: social_media-API.users index: username_1 dup key: { username: "Dave" }
+10-04-2024 03:04:54:454 http: ::ffff:127.0.0.1 POST /user/signup 500 56 - 345.831 ms
+
+10-04-2024 03:04:56:456 error: An error has occured
+10-04-2024 03:04:56:456 error: E11000 duplicate key error collection: social_media-API.users index: username_1 dup key: { username: "Dave" }
+10-04-2024 03:04:56:456 http: ::ffff:127.0.0.1 POST /user/signup 500 56 - 233.617 ms
+
+10-04-2024 03:10:28:1028 info: Server is running on PORT 3000
+10-04-2024 03:11:03:113 info: Server is running on PORT 3000
+10-04-2024 03:11:17:1117 error: An error has occured
+10-04-2024 03:11:17:1117 error: username or email is incorrect
+10-04-2024 03:11:17:1117 http: ::ffff:127.0.0.1 POST /user/login 500 56 - 142.595 ms
+
+10-04-2024 03:11:28:1128 error: An error has occured
+10-04-2024 03:11:28:1128 error: username or email is incorrect
+10-04-2024 03:11:28:1128 http: ::ffff:127.0.0.1 POST /user/login 500 56 - 17.217 ms
+
+10-04-2024 03:15:48:1548 info: Server is running on PORT 3000
+10-04-2024 03:15:51:1551 error: An error has occured
+10-04-2024 03:15:51:1551 error: username or email is incorrect
+10-04-2024 03:15:51:1551 http: ::ffff:127.0.0.1 POST /user/login 400 60 - 98.801 ms
+
+10-04-2024 03:16:06:166 error: An error has occured
+10-04-2024 03:16:06:166 error: username or email is incorrect
+10-04-2024 03:16:06:166 http: ::ffff:127.0.0.1 POST /user/login 400 60 - 236.885 ms
+
+10-04-2024 03:16:20:1620 http: ::ffff:127.0.0.1 POST /user/login 200 51 - 254.360 ms
+
+10-04-2024 03:21:09:219 info: Server is running on PORT 3000
+10-04-2024 03:21:24:2124 error: An error has occured
+10-04-2024 03:21:24:2124 error: email or password is incorrect
+10-04-2024 03:21:24:2124 http: ::ffff:127.0.0.1 POST /user/login 400 60 - 289.781 ms
+
+10-04-2024 03:21:32:2132 error: An error has occured
+10-04-2024 03:21:32:2132 error: email or password is incorrect
+10-04-2024 03:21:32:2132 http: ::ffff:127.0.0.1 POST /user/login 400 60 - 219.370 ms
+
+10-04-2024 03:26:33:2633 info: Server is running on PORT 3000
+10-04-2024 03:26:40:2640 error: An error has occured
+10-04-2024 03:26:40:2640 error: email or password is incorrect
+10-04-2024 03:26:40:2640 http: ::ffff:127.0.0.1 POST /user/login 400 60 - 541.861 ms
+
+10-04-2024 03:27:22:2722 error: An error has occured
+10-04-2024 03:27:22:2722 error: E11000 duplicate key error collection: social_media-API.users index: username_1 dup key: { username: "Dave" }
+10-04-2024 03:27:22:2722 http: ::ffff:127.0.0.1 POST /user/signup 500 56 - 257.932 ms
+
+10-04-2024 03:32:09:329 info: Server is running on PORT 3000
+10-04-2024 03:32:18:3218 error: An error has occured
+10-04-2024 03:32:18:3218 error: E11000 duplicate key error collection: social_media-API.users index: username_1 dup key: { username: "Dave" }
+10-04-2024 03:32:18:3218 http: ::ffff:127.0.0.1 POST /user/signup 500 56 - 343.773 ms
+
+10-04-2024 03:32:24:3224 error: An error has occured
+10-04-2024 03:32:24:3224 error: E11000 duplicate key error collection: social_media-API.users index: username_1 dup key: { username: "Dave" }
+10-04-2024 03:32:24:3224 http: ::ffff:127.0.0.1 POST /user/signup 500 56 - 233.690 ms
+
+10-04-2024 03:33:40:3340 info: Server is running on PORT 3000
+10-04-2024 03:33:44:3344 error: An error has occured
+10-04-2024 03:33:44:3344 error: E11000 duplicate key error collection: social_media-API.users index: username_1 dup key: { username: "Dave" }
+10-04-2024 03:33:44:3344 http: ::ffff:127.0.0.1 POST /user/signup 500 56 - 337.866 ms
+
+10-04-2024 03:33:46:3346 error: An error has occured
+10-04-2024 03:33:46:3346 error: E11000 duplicate key error collection: social_media-API.users index: username_1 dup key: { username: "Dave" }
+10-04-2024 03:33:46:3346 http: ::ffff:127.0.0.1 POST /user/signup 500 56 - 242.779 ms
+
+10-04-2024 03:33:47:3347 error: An error has occured
+10-04-2024 03:33:47:3347 error: E11000 duplicate key error collection: social_media-API.users index: username_1 dup key: { username: "Dave" }
+10-04-2024 03:33:47:3347 http: ::ffff:127.0.0.1 POST /user/signup 500 56 - 214.655 ms
+
+10-04-2024 03:33:48:3348 error: An error has occured
+10-04-2024 03:33:48:3348 error: E11000 duplicate key error collection: social_media-API.users index: username_1 dup key: { username: "Dave" }
+10-04-2024 03:33:48:3348 http: ::ffff:127.0.0.1 POST /user/signup 500 56 - 207.240 ms
+
+10-04-2024 03:39:45:3945 info: Server is running on PORT 3000
+10-04-2024 03:39:55:3955 error: An error has occured
+10-04-2024 03:39:55:3955 error: E11000 duplicate key error collection: social_media-API.users index: username_1 dup key: { username: "Dave" }
+10-04-2024 03:39:55:3955 http: ::ffff:127.0.0.1 POST /user/signup 500 56 - 328.955 ms
+
+10-04-2024 03:39:56:3956 error: An error has occured
+10-04-2024 03:39:56:3956 error: E11000 duplicate key error collection: social_media-API.users index: username_1 dup key: { username: "Dave" }
+10-04-2024 03:39:56:3956 http: ::ffff:127.0.0.1 POST /user/signup 500 56 - 235.715 ms
+
+10-04-2024 03:40:25:4025 error: An error has occured
+10-04-2024 03:40:25:4025 error: E11000 duplicate key error collection: social_media-API.users index: email_1 dup key: { email: "Test1@g.co" }
+10-04-2024 03:40:25:4025 http: ::ffff:127.0.0.1 POST /user/signup 500 56 - 200.580 ms
+
+10-04-2024 03:40:37:4037 http: ::ffff:127.0.0.1 POST /user/signup 201 210 - 254.126 ms
+
+10-04-2024 03:40:39:4039 error: An error has occured
+10-04-2024 03:40:39:4039 error: E11000 duplicate key error collection: social_media-API.users index: username_1 dup key: { username: "Davet" }
+10-04-2024 03:40:39:4039 http: ::ffff:127.0.0.1 POST /user/signup 500 56 - 191.311 ms
+
+10-04-2024 03:41:20:4120 error: An error has occured
+10-04-2024 03:41:20:4120 error: User validation failed: username: Username field is required
+10-04-2024 03:41:20:4120 http: ::ffff:127.0.0.1 POST /user/signup 400 75 - 17.252 ms
+
+10-04-2024 03:43:17:4317 error: An error has occured
+10-04-2024 03:43:17:4317 error: User validation failed: username: Username field is required
+10-04-2024 03:43:17:4317 http: ::ffff:127.0.0.1 POST /user/signup 400 75 - 30.562 ms
+
+10-04-2024 03:44:42:4442 info: Server is running on PORT 3000
+10-04-2024 03:46:37:4637 error: An error has occured
+10-04-2024 03:46:37:4637 error: E11000 duplicate key error collection: social_media-API.users index: username_1 dup key: { username: "Dave" }
+10-04-2024 03:46:37:4637 http: ::ffff:127.0.0.1 POST /user/signup 500 56 - 331.970 ms
+
+10-04-2024 03:48:34:4834 info: Server is running on PORT 3000
+10-04-2024 03:48:48:4848 error: An error has occured
+10-04-2024 03:48:48:4848 error: E11000 duplicate key error collection: social_media-API.users index: username_1 dup key: { username: "Dave" }
+10-04-2024 03:48:48:4848 http: ::ffff:127.0.0.1 POST /user/signup 500 56 - 347.532 ms
+
+10-04-2024 03:48:50:4850 error: An error has occured
+10-04-2024 03:48:50:4850 error: E11000 duplicate key error collection: social_media-API.users index: username_1 dup key: { username: "Dave" }
+10-04-2024 03:48:50:4850 http: ::ffff:127.0.0.1 POST /user/signup 500 56 - 275.631 ms
+
+10-04-2024 03:49:44:4944 info: Server is running on PORT 3000
+10-04-2024 03:49:49:4949 error: An error has occured
+10-04-2024 03:49:49:4949 error: E11000 duplicate key error collection: social_media-API.users index: username_1 dup key: { username: "Dave" }
+10-04-2024 03:49:49:4949 http: ::ffff:127.0.0.1 POST /user/signup 500 56 - 350.574 ms
+
+10-04-2024 04:18:54:1854 info: Server is running on PORT 3000
+10-04-2024 04:19:06:196 error: An error has occured
+10-04-2024 04:19:06:196 error: User validation failed: username: Username already exists
+10-04-2024 04:19:06:196 http: ::ffff:127.0.0.1 POST /user/signup 400 72 - 106.754 ms
+
+10-04-2024 04:20:29:2029 info: Server is running on PORT 3000
+10-04-2024 04:20:39:2039 error: An error has occured
+10-04-2024 04:20:39:2039 error: User validation failed: username: Username already exists
+10-04-2024 04:20:39:2039 http: ::ffff:127.0.0.1 POST /user/signup 400 72 - 141.016 ms
+
+10-04-2024 04:20:40:2040 error: An error has occured
+10-04-2024 04:20:40:2040 error: User validation failed: username: Username already exists
+10-04-2024 04:20:40:2040 http: ::ffff:127.0.0.1 POST /user/signup 400 72 - 28.599 ms
+
+10-04-2024 04:20:49:2049 error: An error has occured
+10-04-2024 04:20:49:2049 error: E11000 duplicate key error collection: social_media-API.users index: email_1 dup key: { email: "Test1@g.co" }
+10-04-2024 04:20:49:2049 http: ::ffff:127.0.0.1 POST /user/signup 500 56 - 270.342 ms
+
+10-04-2024 05:02:10:210 info: Server is running on PORT 3000
+10-04-2024 05:02:12:212 error: An error has occured
+10-04-2024 05:02:12:212 error: User validation failed: username: Username already exists, email: Email already exists
+10-04-2024 05:02:12:212 http: ::ffff:127.0.0.1 POST /user/signup 400 109 - 120.593 ms
+
+10-04-2024 05:02:20:220 error: An error has occured
+10-04-2024 05:02:20:220 error: User validation failed: username: Username already exists
+10-04-2024 05:02:20:220 http: ::ffff:127.0.0.1 POST /user/signup 400 72 - 35.941 ms
+
+10-04-2024 05:02:27:227 error: An error has occured
+10-04-2024 05:02:27:227 error: User validation failed: email: Email already exists
+10-04-2024 05:02:27:227 http: ::ffff:127.0.0.1 POST /user/signup 400 66 - 31.489 ms
+
